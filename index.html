@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="conteiner">
+    <main class="card">
+      
+      <div class="card__img">
+        <img src="images/image-equilibrium.jpg "  alt="nft-img">
+        <div class="card__mask__img" id="myImg">
+          <img class="card__view__icon" src="images/icon-view.svg" alt="view-icon">
+        </div>
+      </div>
+
+      <!-- modal -->
+      <div  class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" >
+        <div class="caption"></div>
+      </div>
+      <!--  FIN DEL modal -->
+
+      <div class="card__content">
+        
+        <div class="card_text">
+          <h1 class="card__h1">Equilibrium #3429</h1>
+          <p class="card__paragraph">Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+
+        <div class="card__info">
+          <p class="card__ETH">0.041 ETH </p>
+          <p class="card__time">3 days left </p>
+        </div>
+
+        <div class="card__user">
+          <div class="card__imgUser">
+            <img src="images/image-avatar.png" alt="user-img">
+          </div>
+          <p class="card__creation">Creation of <span class="card__nameUser"> Jules Wyvern </span></p>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <div class="attribution">
+    Coded by <a href="https://www.linkedin.com/in/c%C3%A9sar-salda%C3%B1a-alarc%C3%B3n/" target="_blank">César Alarcón</a>.
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
